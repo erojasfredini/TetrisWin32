@@ -1,0 +1,8 @@
+Sobre los recursos:
+
+Se considera que en calidad media, cada bloque tiene exactamente 42 pixeles luego el ancho y alto deben ser multiplos de esto.
+
+Resolucion estandar de calidad media:  126x84
+				      42*3x42*2
+
+No se opto por una potencia de 2 porque obligaria a desperdiciar espacio del bmp en blanco, lo que es una sobrecarga injustificada y porque esto complicaria el codigo.
